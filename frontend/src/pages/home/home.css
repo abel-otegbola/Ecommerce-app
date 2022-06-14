@@ -1,0 +1,147 @@
+.home {
+    margin-top: 60px;
+}
+.home header {
+    padding: 6%;
+    min-height: 270px;
+    background-image: url("../../../src/img/sittingroom2.jpg");
+    background-size: cover;
+    background-position-y: 10%;
+    color: #fff;
+}
+.home header .header-texts {
+    text-align: center;
+    padding: 20px 30px;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+.home header .header-texts a {
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    background-color: rgb(203, 143, 52);
+    line-height: 60px;
+}
+.home section {
+    padding: 6%;
+}
+.home section .heading {
+    text-align: center;
+}
+.home section .products {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+    flex-wrap: wrap;
+}
+.home section .products .product {
+    width: 250px;
+    border: 1px solid rgba(153, 153, 153, 0.164);
+    border-radius: 2px;
+    margin: 10px 0;
+}
+.home section .products .product img {
+    width: 100%;
+    height: 200px;
+}
+.home section .products .product .texts {
+    padding: 10px 20px;
+    line-height: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.home section .products .product .texts .star-rating {
+    line-height: 0px;
+}
+.home section .products .product .texts .star-rating svg {
+    font-size: 10px;
+    color: rgb(194, 194, 194);
+    margin: 0;
+}
+.home section .products .product .texts .star-rating svg.checked {
+    color: rgb(255, 196, 1);
+}
+.home section .products .product .texts h3.price {
+    margin-top: 50px;
+}
+.home section .features {
+    display: flex;
+}
+.home section .features img {
+    width: 50%;
+    border-radius: 20px
+}
+.home section .features .texts {
+    margin-left: 6%;
+}
+.home section .features .texts .heading {
+    text-align: left;
+    line-height: 40px;
+}
+.home section .features .texts .features-list__feature {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    line-height: 10px;
+}
+.home section .features .texts .features-list__feature svg {
+    color: rgb(237, 166, 60);
+    padding: 10px 15px;
+    border: 1px solid rgb(237, 166, 60);
+    border-radius: 3px;
+}
+.home section .features .texts .features-list__feature--texts {
+    margin: 0 20px;
+}
+.home section .features .texts .features-list__feature--texts h4 {
+    line-height: 10px;
+    margin: 0;
+}
+.home section .features .texts .features-list__feature--texts p {
+    line-height: 30px;
+}
+.home section .newsletter {
+    display: flex;
+    padding: 5px;
+    padding-left: 25px;
+    align-items: center;
+    border: 1px solid rgba(149, 149, 149, 0.268);
+    width: fit-content;
+    margin: 3% auto;
+    border-radius: 3px;
+}
+.home section .newsletter svg {
+    color: rgb(237, 166, 60);
+}
+.home section .newsletter input {
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+.home section .newsletter button {
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+    background-color: rgb(237, 166, 60);
+}
+
+@media screen and (max-width: 1000px) {
+    .home section .features {
+        flex-wrap: wrap;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.802);
+    }
+    .home section .features img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .home section .features .texts {
+        margin-left: 20px;
+        color: rgb(216, 216, 216);
+    }
+}

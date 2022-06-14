@@ -1,0 +1,77 @@
+
+.single__product {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 6%;
+  }
+.breadcrumb {
+      color: #000;
+      padding: 6% 6% 2% 6%;
+  }
+  .single__product img {
+    width: 40%;
+    margin: 0 30px;
+  }
+  .single__product img:hover {
+      object-fit: contain;
+  }
+  .single__product .texts {
+    font-size: 14px;
+  }
+  .single__product .texts h2 {
+    text-transform: uppercase;
+  }
+  .single__product .texts .description {
+    font-weight: 600;
+    padding: 10px 0;
+  }
+  .single__product .texts .price {
+    font-weight: 700;
+    padding: 10px 0;
+  }
+  .single__product .texts .price span {
+    font-size: 20px;
+    color: #f20455;
+    margin-left: 10px;
+  }
+  .single__product button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    margin: 20px 20px 0 0;
+    background: rgb(237, 166, 60);
+    color: #fff;
+    box-shadow: 3px 3px 10px rgba(153, 153, 153, 0.337);
+    cursor: pointer;
+  }
+  .single__product button svg {
+    color: #fff;
+  }
+  .single__product button.wishlist {
+    background: #000000;
+  }
+  .products .product .texts .btn .cartBtn button {
+   background: #F20455;
+   padding: 10px 10px;
+  }
+  .products .product .texts .btn img {
+   width: 15px;
+   height: 20px;
+   padding: 10px;
+  }
+  .products .product .texts .btn .cartBtn button a {
+   text-decoration: none;
+   color: #fff;
+   padding: 15px 0px;
+  }
+  .products .checkout {
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    background: rgb(237, 166, 60);
+    color: #fff;
+    padding: 13px 35px;
+    margin: 20px;
+    border-radius: 3px;
+    float: right;
+  }

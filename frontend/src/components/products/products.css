@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+}
+table, th, tr, td {
+    border: 1px solid rgb(223, 232, 245);
+    color: #686768;
+    border-collapse: collapse;
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: 700;
+}
+th {
+    color: rgb(255, 255, 255);
+    background-color: rgb(237, 166, 60);
+}
+table .edit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    margin-top: -40px;
+    padding-top: 0;
+}
+table .edit a {
+    text-decoration: none;
+    padding: 5px 8px;
+    color: rgb(237, 166, 60);
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    border: 1px solid rgb(237, 166, 60);
+}
+table .edit svg {
+    margin: 0;
+    color: rgb(237, 166, 60);
+}
+#addProduct form {
+  margin: 10px 0;
+}

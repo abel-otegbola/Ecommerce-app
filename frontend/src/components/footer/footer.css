@@ -1,0 +1,60 @@
+footer {
+    background-image: url("../../img/sittingroom2.jpg");
+    background-size: cover;
+}
+footer .navigations {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.834);
+    padding: 3% 5%;
+}
+footer .navigations ul {
+    min-width: 250px;
+    padding: 0;
+    margin-right: 10%;
+}
+footer .navigations ul h3.brand {
+    color: rgb(237, 166, 60);
+}
+footer .navigations ul h3 {
+    margin: 25px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+}
+footer .navigations ul li {
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+footer .navigations ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+footer .navigations ul li svg {
+    margin-right: 10px;
+}
+footer .navigations ul li a:hover {
+    color: rgb(237, 166, 60);
+}
+footer .socials {
+    min-width: 250px;
+}
+footer .copyright {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: rgb(219, 218, 218);
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px 0;
+}
+footer .copyright a {
+    text-decoration: none;
+    color: rgb(237, 166, 60);
+}

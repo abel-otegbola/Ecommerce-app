@@ -1,0 +1,178 @@
+.admin {
+    background: rgb(239, 239, 240);
+    padding: 10px;
+}
+.admin h1 {
+    margin: 0 10px;
+}
+.admin .topBoard {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 20px;
+}
+.admin .topBoard .sales {
+    padding: 10px 0;
+}
+.admin .topBoard h3 {
+    margin: 0;
+    line-height: 5px;
+    font-size: 15px;
+    color: #686768;
+}
+.admin .topBoard h2 {
+    margin: 0;
+    line-height: 5px;
+}
+.admin .topBoard button {
+    padding: 15px 20px;
+    border: none;
+    background: rgb(237, 166, 60);
+    color: #fff;
+    border-radius: 3px;
+}
+.admin .topBoard p {
+    font-size: 14px;
+    color: #aca8ac;
+}
+.admin .sales-chart {
+    background: rgb(252, 251, 254);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(227, 225, 225);
+    width: 70%;
+    padding: 0 10px;
+    margin: 10px;
+    font-size: 12px;
+}
+.admin .side-pane {
+    padding: 20px;
+    width: 20%;
+}
+.admin .bottom-pane {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.admin .bottom-pane .sales {
+    border: 1px solid rgb(242, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 10px 20px 20px 20px;
+}
+.admin .bottom-pane .sales p {
+    margin-top: 0;
+}
+.admin .bottom-pane .sales svg {
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.admin .bottom-pane .sales.wallet svg {
+    background: blue;
+    color: #fff;
+}
+.admin .bottom-pane .sales.referral svg {
+    background: orange;
+    color: #fff;
+}
+.admin .bottom-pane .sales.estimate svg {
+    background: red;
+    color: #fff;
+}
+.admin .bottom-pane .sales.earnings svg {
+    background: purple;
+    color: #fff;
+}
+.admin .bottom-board {
+    margin-top: 10px;
+    display: flex;
+}
+.admin .bottom-board .recent-activities {
+    width: 40%;
+    font-size: 12px;
+    padding: 20px;
+    background: #fff;
+}
+.admin .bottom-board .recent-activities .activity {
+    display: flex;
+    line-height: 10px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #f5f4f5;
+}
+.admin .bottom-board .recent-activities .activity svg {
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    z-index: 300;
+}
+.admin .bottom-board .recent-activities .activity .texts {
+    margin-left: 20px;
+}
+.admin .bottom-board .recent-activities .activity .texts::before {
+    content: "";
+    background: #eae8e8;
+    width: 2px;
+    height: 40px;
+    position: absolute;
+    left: 45%;
+    top: 35px;
+}
+.admin .bottom-board .recent-activities #activity1.activity svg {
+    background: #3e18c6;
+}
+.admin .bottom-board .recent-activities #activity2.activity svg {
+    background: #fb1c04;
+}
+.admin .bottom-board .recent-activities #activity3 svg {
+    background: #1497de;
+}
+.admin .bottom-board .recent-activities #activity4 svg {
+    background: #deb40c;
+}
+.admin .bottom-board .recent-activities #activity5 svg {
+    background: #128c16;
+}
+.admin .bottom-board .recent-activities .activity .date {
+    width: 40%;
+}
+.admin .bottom-board .recent-activities .activity h2 {
+    font-size: 16px;
+    margin: 0;
+}
+.admin .bottom-board .recent-activities .activity p{
+    color: #9d9d9d;
+}
+.admin .bottom-board .order-status {
+    width: 56%;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    background: #fff;
+}
+.admin .bottom-board .order-status table th{
+   padding: 10px;
+    font-size: 10px;
+    background: rgb(242, 238, 238);
+}
+.admin .bottom-board .order-status table td{
+    font-size: 10px;
+    padding: 10px;
+}
+.admin .bottom-board .order-status table td button{
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.admin .bottom-board .order-status table td button.Process{
+    background: #fb1c04;
+}
+.admin .bottom-board .order-status table td button.Open{
+    background: #29b70c;
+}
+.admin .bottom-board .order-status table td button.OnHold{
+    background: #fb04d6;
+}

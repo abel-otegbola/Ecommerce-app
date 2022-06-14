@@ -1,15 +1,15 @@
 import React from 'react';
-import Navbar from './components/navbar'
-import Home from './components/home'
-import Footer from './components/footer'
-import Login from './pages/login'
-import Dashboard from './pages/dashboard'
-import Cart from './pages/cart'
-import Register from './pages/register'
-import Shop from './pages/shop'
-import Single from './pages/single'
+import Navbar from './components/navbar/navbar'
+import Home from './pages/home/home'
+import Footer from './components/footer/footer'
+import Login from './pages/login/login'
+import Dashboard from './pages/dashboard/dashboard'
+import Cart from './pages/cart/cart'
+import Register from './pages/register/register'
+import Shop from './pages/shop/shop'
+import Single from './pages/singleProduct/single'
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Wishlist from './pages/wishlist';
+import Wishlist from './pages/wishlist/wishlist';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import steps from '../img/steps.png'
+import comfysofa from '../img/comfysofa.png'
 import sublimation from '../img/sublimation.png'
 import infos from '../img/infos.png'
 import illustration_ecommerce from '../img/illustration-ecommerce.png'
@@ -15,10 +15,10 @@ const Main = () => {
                     <h1>Get and Order your products in just these simple steps</h1>
                     <p>Create your own design to your preference and get your product delivered to your doorsteps.</p>
                 </div>
-                <img src={steps} alt="steps"/>
+                <img src={comfysofa} alt="steps"/>
             </section>
             <section>
-                <h2>Glimpse Of Some Of Our Products</h2>
+                <h2>OUR SERVICES</h2>
                 <img src={sublimation} alt="steps"/>
                 <div className="texts">
                     <h1>Sublimation Designs</h1>
@@ -36,7 +36,7 @@ const Main = () => {
                 <img src={illustration_ecommerce2} alt="steps"/>
             </section>
             <section>
-                <h2>See it in action yourself</h2>
+                <h2>GET PRODUCT NOW</h2>
                 <img src={illustration_ecommerce} alt="steps"/>
                 <div className="texts">
                     <button>Go to shop</button>

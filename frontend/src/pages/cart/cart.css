@@ -1,0 +1,122 @@
+.cart {
+    margin: 6%;
+    margin-top: 60px;
+}
+.cart .front-texts {
+    width: 100%;
+    text-align: center;
+}
+.cart section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cart section aside {
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgba(153, 153, 153, 0.202);
+}
+.cart .products {
+    width: 60%;
+    display: block;
+    padding: 10px 20px;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgba(153, 153, 153, 0.202);
+    border-radius: 10px;
+}
+.cart .products .product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border: 1px solid rgb(235, 233, 233);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.cart .products .product a img {
+    width: 80px;
+    max-height: 100px;
+}
+.cart .products .product .texts {
+    text-align: left;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart .products .product .texts h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.cart .products .product .texts h2.price {
+    font-size: 18px;
+    color: rgb(237, 166, 60);
+}
+.cart .products .product .texts svg {
+    padding: 8px
+}
+.cart .products .product .texts button svg {
+    padding: 0
+}
+.cart .products .product .texts .btn {
+    display: flex;
+    align-items: center;
+}
+.cart .products .product .texts .btn button {
+    background-color: #fff;
+    color:rgb(237, 166, 60);
+    font-size: 18px;
+    padding: 5px 11px;
+    border: 1px solid rgba(206, 197, 183, 0.385);
+    box-shadow: 2px 2px 10px rgba(153, 153, 153, 0.242);
+    border-radius: 3px;
+}
+.cart .products .product .texts .btn svg {
+    color: rgb(237, 166, 60);
+}
+.cart .products .product .texts .added svg {
+    color: rgb(237, 166, 60)
+}
+.cart .products .product .texts input {
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    border: 1px solid #eee5f8;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 10px;
+    max-width: 26px;
+}
+.cart .products .product .texts .btn svg.deleteProduct {
+    margin-left: 20px;
+}
+.cart .products .product.total {
+      padding: 10px 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .cart section {
+    flex-wrap: wrap;
+  }
+  .cart section aside {
+      width: 100%;
+      margin-top: 10px;
+  }
+  .cart .products {
+      width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cart .products .product {
+      flex-wrap: wrap;
+  }
+  .cart .products .product .texts {
+      width: 100%;
+  }
+}

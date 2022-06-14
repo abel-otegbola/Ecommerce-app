@@ -1,0 +1,94 @@
+.wishlist {
+    padding: 6%;
+}
+.wishlist .front-texts {
+    text-align: center;
+}
+.wishlist .products {
+    display: flex;
+    padding: 5% 0;
+    flex-wrap: wrap;
+}
+.wishlist .products .product {
+    width: 250px;
+    border: 1px solid rgba(153, 153, 153, 0.164);
+    border-radius: 2px;
+    margin: 10px;
+}
+.wishlist .products .product img {
+    width: 100%;
+    height: 200px;
+}
+.wishlist .products .product .texts {
+    padding: 10px 20px;
+    line-height: 10px;
+    font-size: 14px;
+}
+.wishlist .products .product .texts .star-rating {
+    line-height: 0px;
+}
+.wishlist .products .product .texts .star-rating svg {
+    font-size: 10px;
+    color: rgb(194, 194, 194);
+    margin: 0;
+}
+.wishlist .products .product .texts .star-rating svg.checked {
+    color: rgb(255, 196, 1);
+}
+.wishlist .products .product .texts h3.price {
+    margin-top: 50px;
+}
+.wishlist .products .product .texts .btn button {
+  background-color: #fff;
+  color:rgb(237, 166, 60);
+  font-size: 18px;
+  padding: 5px 11px;
+  border: 1px solid rgba(206, 197, 183, 0.385);
+  box-shadow: 2px 2px 10px rgba(153, 153, 153, 0.242);
+  border-radius: 3px;
+}
+.wishlist .products .product .texts .btn svg {
+  color: rgb(237, 166, 60);
+}
+.wishlist .products .product .texts .added svg {
+  color: rgb(237, 166, 60)
+}
+.wishlist .products .product .texts input {
+  font-size: 12px;
+  text-align: center;
+  color: #000;
+  background: #fff;
+  border: 1px solid #eee5f8;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0 10px;
+  max-width: 26px;
+}
+.wishlist .products .product .btn {
+  margin: 20px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wishlist .products .product .btn button {
+  padding: 8px 20px;
+  background-color: rgb(237, 166, 60);
+  border: none;
+  border-radius: 3px;
+}
+.wishlist .products .product .btn button svg,
+  .wishlist .products .product .btn button a {
+  color: #fff;
+}
+.wishlist .products .product .btn button svg {
+  padding: 0px;
+}
+.wishlist .products .product .btn svg {
+  color: rgb(237, 166, 60);
+  padding: 6px 10px;
+  border: 1px solid rgb(237, 166, 60);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
