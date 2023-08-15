@@ -66,7 +66,7 @@ const Shop = () => {
                             return (
                                 <div className="product" key={polo.id}>
                                     
-                                    <img src={polo.img} 
+                                    <img src={polo.img} loading="lazy"
                                         alt={`polo${materials.findIndex(item => item.title === polo.title)}`}
                                     />
                                     <div className="texts">
