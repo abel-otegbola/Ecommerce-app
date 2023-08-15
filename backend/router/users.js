@@ -47,13 +47,13 @@ router.post("/registerhandler", (req, res) => {
                         if (err) throw err;
                         errMsg = "Registered succesfully please login to continue"
                         userlogin = {name: user.Firstname}
-                        res.redirect("/LoginPage")
+                        res.redirect(`http://localhost:5173/LoginPage`)
                     })
                 }
                 else {
                     userlogin = {name: null}
                     errMsg = "Email already registered"
-                    res.redirect('/register')
+                    res.redirect(`http://localhost:5173/register`)
                 }
             })
 })
@@ -84,7 +84,7 @@ router.post("/login", (req, res) => {
             }
             userlogin = user
             errMsg = "Email incorrect"
-            res.redirect('/loginPage')
+            res.redirect(`http://localhost:5173/loginPage`)
         }
         else {
             bcrypt.compare(user1.password, result[0].password, (err, isMatch) => {
@@ -105,11 +105,11 @@ router.post("/login", (req, res) => {
                     }
                     userProfile = profile;
                     userlogin = user
-                    res.redirect("/dashboard")
+                    res.redirect(`http://localhost:5173/dashboard`)
                 }
                 else {
                     errMsg = "Password incorrect"
-                    res.redirect('/loginPage')
+                    res.redirect(`http://localhost:5173/loginPage`)
                 }
           
         })

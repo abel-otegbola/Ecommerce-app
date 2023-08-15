@@ -10,7 +10,7 @@ const Login = () => {
 
     useEffect(() => {
         setMsg([])
-            fetch('/users/errMsg')
+            fetch(`${import.meta.env.VITE_SERVER_URL}users/errMsg`)
             .then((res) => res.json())
             .then((data) => {
                 setMsg(data)
@@ -27,7 +27,7 @@ const Login = () => {
                     <h1>Login</h1>
                     <p> Don't have an account  <a href="/register">Register!</a> </p>
                 </div>
-                <form method="POST" action="/users/login">
+                <form method="POST" action={`${import.meta.env.VITE_SERVER_URL}users/login`}>
                     <div className="body">
                         <p className="errs">{errMsg}</p>
                             <label htmlFor="email">

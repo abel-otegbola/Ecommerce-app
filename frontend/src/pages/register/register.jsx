@@ -15,7 +15,7 @@ const Register = () => {
     const [errMsg, setMsg] = useState("")
 
     useEffect(() => {
-        fetch('/errMsg')
+        fetch(`${import.meta.env.VITE_SERVER_URL}errMsg`)
         .then((res) => res.json())
         .then((data) => {
             setMsg(data)
@@ -82,7 +82,7 @@ const Register = () => {
                     <h1>Register</h1>
                     <p>Already have an account  <a href="/loginPage">Login!</a> </p>
                 </div>
-                <form method="POST" action="/users/registerhandler">
+                <form method="POST" action={`${import.meta.env.VITE_SERVER_URL}users/registerhandler`}>
                     <div className="body">
                         <div className="field">
                             <div className="errs">

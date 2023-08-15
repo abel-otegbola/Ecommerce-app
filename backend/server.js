@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 //Create mysql database connection
 const db = mysql.createConnection({
     host: "localhost",
-    user: "Abel",
+    user: "bos_unlimited",
     password: "1234",
     database: "bos_unlimited"
   });
@@ -23,7 +23,7 @@ const db = mysql.createConnection({
   
   //Create mysql database
 app.get('/createdb', (req, res) => {
-    let sql = 'CREATE DATABASE Bos_unlimited';
+    let sql = 'CREATE DATABASE bos_unlimited';
     db.query(sql, (err, result) => {
         if (err) throw err;
         console.log(result)
